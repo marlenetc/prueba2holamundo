@@ -4,9 +4,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class MiControlador {
-    @GetMapping("/")
+    @GetMapping("/saludo")
     public String getMessage(){
 
-        return "¡Hola mundo!, soy Marlene";
+        return "¡Hola mundo!, soy Marlene Toscano y es mi primer despliegue";
     }
 }
